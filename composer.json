@@ -1,0 +1,19 @@
+{
+    "name": "giselleschwab/buscador-cursos",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Giselleschwab\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giselle Schwab Silva",
+            "email": "giselleschwab@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^6.3"
+    }
+}
